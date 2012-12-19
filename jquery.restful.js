@@ -74,4 +74,20 @@
             this.update = this.put;
         };
     $.restful = new RESTful();
+
+    /**
+     * CRUD aliases
+     */
+    $.create = function (options) {
+        return $.restful.create(options);
+    };
+    $.read   = function (options) {
+        return $.restful.read(options);
+    };
+    $.update = function (options) {
+        return $.restful.update(options);
+    };
+    $.delete = function (options) {
+        return $.restful.delete(options);
+    };
 })(jQuery);
