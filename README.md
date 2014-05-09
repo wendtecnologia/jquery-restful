@@ -1,4 +1,4 @@
-## jQuery.restful ##
+## jQuery.restful [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/wendtecnologia/jquery-restful/badges/quality-score.png?s=e3374df1ea4bbc17c438eb356fcd146ca3b5d94a)](https://scrutinizer-ci.com/g/wendtecnologia/jquery-restful/)
 
 A plugin to ease AJAX interaction with RESTful APIs.
 
