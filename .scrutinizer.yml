@@ -1,0 +1,31 @@
+tools:
+    js_hint:
+        config:
+            global: { jQuery: false, $: false, _: false, alert: false, _self: false, base: false }
+            curly: false
+            eqeqeq: true
+            es3: true
+            forin: false
+            immed: false
+            newcap: true
+            noarg: true
+            nonew: false
+            plusplus: false
+            quotmark: false
+            undef: false
+            unused: false
+            strict: false
+            trailing: true
+            boss: false
+            debug: false
+            eqnull: true
+            evil: true
+            gcl: true
+            maxerr: 250
+            scripturl: true
+            smarttabs: true
+            browser: true
+            devel: false
+            jquery: true
+            W065: true
+            funcscope: true
