@@ -1,5 +1,8 @@
 /*!
- * jQuery RESTful plugin
+ * jQuery RESTful plugin by Wend Tecnologia
+ * 
+ * Its a plugin to easy AJAX interaction with RESTful APIs
+ * 
  * @author @walkeralencar
  * Licensed under the MIT license
  */
@@ -22,7 +25,7 @@
         },
         RESTful = function () {
             this.request = function (options) {
-                // $.extend(true,...) is a recursive extend;
+                /* $.extend(true,...) is a recursive extend;*/
                 this.options = $.extend(true, {}, defaults, options);
                 this.defaults = defaults;
                 this.name = pluginName;
